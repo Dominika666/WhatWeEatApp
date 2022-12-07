@@ -63,17 +63,26 @@ const selectValue = () => {
 
 const checkColor = note => {
     switch(selectedValue) {
-        case 'Vege':
+        case 'Poniedziałek':
             note.style.backgroundColor = 'rgb(107, 235, 52)';
             break;
-        case 'Jagoda':
+        case 'Wtorek':
             note.style.backgroundColor = 'rgb(190, 100, 250)';
             break;
-        case 'Mikołaj':
+        case 'Środa':
             note.style.backgroundColor = 'rgb(42, 209, 201)';
             break;
-        case 'Wszyscy':
+        case 'Czwartek':
             note.style.backgroundColor = 'rgb(250, 195, 100)';
+            break;
+        case 'Piątek':
+            note.style.backgroundColor = 'rgb(82, 217, 145)';
+            break;
+        case 'Sobota':
+            note.style.backgroundColor = 'rgb(247, 242, 82';
+            break;
+        case 'Niedziela':
+            note.style.backgroundColor = 'rgb(252, 68, 80)';
             break;
     }
 }
